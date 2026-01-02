@@ -1,11 +1,11 @@
 import './App.css'
-import FifthTable from "./pages/table5/FifthTable.tsx";
+import SixthTable from "./pages/table6/SixthTable.tsx";
 
 function App() {
 
   return (
     <>
-        <FifthTable />
+        <SixthTable />
     </>
   )
 }
