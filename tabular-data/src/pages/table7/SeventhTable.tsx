@@ -68,8 +68,11 @@ const SeventhTable = () => {
         getCoreRowModel: getCoreRowModel(),
         getSortedRowModel: getSortedRowModel(),
     })
+
+    
     return (
         <div>
+            <button onClick={() => {console.log(table)}}>Click</button>
             <div>
                 {table.getHeaderGroups().map(headerGroup => (
                     <div className="grid grid-cols-5 gap-4" key={headerGroup.id}>
