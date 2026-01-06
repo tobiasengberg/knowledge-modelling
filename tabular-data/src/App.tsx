@@ -1,11 +1,11 @@
 import './App.css'
-import EigthTable from "./pages/table8/EigthTable.tsx";
+import NinethTable from "./pages/table9/NinethTable.tsx";
 
 function App() {
 
   return (
     <>
-        <EigthTable />
+        <NinethTable />
     </>
   )
 }
